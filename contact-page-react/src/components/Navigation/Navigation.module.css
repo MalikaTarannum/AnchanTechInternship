@@ -1,0 +1,17 @@
+
+.navigation li {
+    padding: 0 20px;
+}
+.navigation {
+    justify-content: space-between;
+    height: 72px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navigation ul {
+    margin: 0 -20px;
+}
+.navigation img {
+    width: 72px;
+    height: 72px;
+}
