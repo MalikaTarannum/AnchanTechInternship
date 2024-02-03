@@ -1,0 +1,49 @@
+.bulbonoff {
+    max-width: 500px;
+    height: 600px;
+    background-color: rgb(150, 149, 185);
+    padding: 40px 0;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.bulbonoff .title {
+    font-family: 'arial';
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 0.28px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.bulbonoff .bulbonoff-image-wrap {
+    max-width: 250px;
+    margin: 0 auto;
+}
+.bulbonoff .bulbonoff-image-wrap {
+    margin-bottom: 50px;
+}
+.bulbonoff .bulbonoff-image-wrap.flex , .bulbonoff .bulbonoff-button-wrap.flex {
+    justify-content: center;
+}
+.bulbonoff .btn {
+    font-family: 'arial';
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px 40px;
+    background: black;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.bulbonoff-button-parent {
+    max-width: 115px;
+    flex: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bulbonoff-button-parent:hover .btn {
+    color: #000;
+    background: rgb(171, 117, 15);
+}
